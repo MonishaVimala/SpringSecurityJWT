@@ -10,5 +10,18 @@ public class JwtController {
 		return "welcome";
 		
 	}
+	
+	@GetMapping("/user")
+	public String user() {
+		return "user";
+		
+	}
+	
+	@GetMapping("/admin")
+	public String admin() {
+		return "admin";
+		
+	}
+
 
 }
